@@ -165,6 +165,7 @@ main {
   color: rgb(11, 72, 162);
   align-self: stretch;
 	text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .navigation-list {
