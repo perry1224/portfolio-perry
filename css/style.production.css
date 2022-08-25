@@ -12,7 +12,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px
 }
@@ -24,11 +24,11 @@ a:focus {
 }
 
 a {
-    color: hsl(256, 83%, 33%);
+    color: hsla(219, 82%, 50%, 0.975);
 }
 
 a:visited {
-    color: #290331;
+    color: #000000;
 }
 
 a:active {
@@ -175,11 +175,13 @@ main {
 .navigation-list {
     list-style-type: none;
     text-align: auto;
+    
 }
 
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
+    
 }
 
 .form {
