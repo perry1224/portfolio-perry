@@ -49,7 +49,10 @@ a:active {
 
 .paragraph {
     line-height: 2.5;
-    text-align: center;
+    text-align: left;
+    align-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .button:active {
@@ -94,6 +97,7 @@ button:focus,
   color:rgb(11, 72, 162)
 }
 
+
 h1 {
     font-size: 40px;
     font-weight: lighter;
@@ -102,6 +106,10 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 main {
@@ -155,7 +163,7 @@ main {
 
 .page-header__item {
   color: rgb(11, 72, 162);
-  flex-direction: row;
+  align-self: stretch;
 	text-transform: uppercase;
 }
 
@@ -197,68 +205,6 @@ main {
     justify-content: right;
 }
 
-@keyframes color-change {
-    from {
-        fill: var(--color-change1);
-    }
-    to {
-        fill: var(--color-change3);
-    }
-}
-
-@keyframes color-change {
-    0% {
-        fill: var(--color-change1);
-    }
-    50% {
-        fill: var(--color-change2);
-    }
-    100% {
-        fill: var(--color-change3);
-    }
-}
-
-.sun {
-    animation-duration: 4s;
-    animation-name: color-change;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-
-.sun {
-    animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-    to {
-        transform: translate(200px, 50px);
-    }
-}
-
-.cloud-front {
-    animation-duration: 30s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(446px, 48px);
-    }
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-
-.cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-}
 
 @media all and (max-width: 500px) {
     .grid {
