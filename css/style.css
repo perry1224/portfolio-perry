@@ -49,7 +49,7 @@ a:active {
 
 .paragraph {
     line-height: 2.5;
-    text-align: left;
+    text-align: justify;
     align-content: center;
     margin-right: 150px;
     margin-left: 150px;
