@@ -120,6 +120,11 @@ main {
     text-align: center;
 }
 
+video {
+ width: 22em;
+ justify-content: center;
+
+}
 
 .table {
     text-align: center;
