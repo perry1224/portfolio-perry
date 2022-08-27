@@ -211,6 +211,12 @@ video {
     justify-content: right;
 }
 
+textarea {
+height: 15em;
+width: 30em;
+resize: none;
+}
+
 
 @media all and (max-width: 500px) {
     .grid {
