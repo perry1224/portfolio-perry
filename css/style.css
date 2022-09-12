@@ -14,7 +14,7 @@
     --color-change1: #edc655;
     --color-change2: #fcffad;
     --color-change3: #f76414;
-    --grid-color: lightgray;
+    --grid-color: rgba(222, 222, 222, 0.582);
     --font-family: 'Montserrat', sans-serif;
 }
 
@@ -196,6 +196,9 @@ video {
 .grid_item {
     background-color: var(--grid-color);
     padding: 10%;
+    border-radius: 1em;
+    border: 1.5px solid black;
+   
 }
 
 .grid_item:last-child {
