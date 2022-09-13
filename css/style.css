@@ -237,6 +237,14 @@ resize: none;
   
 }
 
+.tech-card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+
+
 
 @media all and (max-width: 500px) {
     .grid {
