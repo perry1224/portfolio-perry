@@ -264,6 +264,16 @@ resize: none;
 }
 
 @media all and (max-width: 750px) {
+  .profile {
+    margin: 62px 32px;
+    justify-items: center;
+    display: grid;
+    grid-gap: 62px;
+  }
+
+  .profile img {
+    margin: 0;
+  }
   .paragraph {
     margin-left: 32px;
     margin-right: 32px;
