@@ -198,6 +198,8 @@ video {
     padding: 10%;
     border-radius: 1em;
     border: 1.5px solid black;
+    box-shadow: 1px 2px black;
+   
    
 }
 
@@ -220,6 +222,8 @@ width: 30em;
 resize: none;
 }
 
+
+
 .tech-card {
   background-color: navy;
   color: white;
@@ -228,8 +232,8 @@ resize: none;
   white-space: nowrap;
   text-align: center;
   box-shadow: 2px 4px black;
-  margin: 3px;
-  justify-content:  space-around;
+  margin: 2px;
+  
 }
 
 
