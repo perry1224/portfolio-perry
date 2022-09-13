@@ -225,6 +225,7 @@ resize: none;
 
 
 .tech-card {
+  display: inline-block;
   background-color: navy;
   color: white;
   border-radius: 5px;
@@ -232,7 +233,7 @@ resize: none;
   white-space: nowrap;
   text-align: center;
   box-shadow: 2px 4px black;
-  margin: 2px;
+  margin: 4px;
   
 }
 
