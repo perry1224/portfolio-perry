@@ -243,7 +243,12 @@ resize: none;
   transform: translateY(-2px);
 }
 
-
+#tool_thumbnails {
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px 30px;
+}
 
 
 @media all and (max-width: 500px) {
@@ -259,6 +264,14 @@ resize: none;
 }
 
 @media all and (max-width: 750px) {
+  .paragraph {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  #tool_thumbnails {
+    grid-template-columns: repeat(3, 1fr);
+  }
     .grid {
         grid-gap: 10px;
     }
