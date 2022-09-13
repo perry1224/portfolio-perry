@@ -192,7 +192,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin: 62px;
+    margin: 42px;
 }
 
 .grid_item {
