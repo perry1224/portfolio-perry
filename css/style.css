@@ -176,11 +176,13 @@ video {
 .navigation-list {
     list-style-type: none;
     text-align: auto;
+    justify-content: flex-start;
 }
 
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
+    justify-content: flex-start;
 }
 
 form {
