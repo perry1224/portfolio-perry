@@ -71,7 +71,7 @@ button {
     /* takes the font from the outer container */
     font-family: inherit;
     background-color: var(--color-button);
-    color: var(--color-button-font);
+    color: white;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
