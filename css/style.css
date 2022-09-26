@@ -43,6 +43,10 @@ a.button {
   color: white;
 }
 
+a.button:visited{
+  color: white
+}
+
 a:visited {
     color: var(--link-color-visited);
 }
